@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900">
   <title>Brew Haven Landing Page Banner — Pumpkin Spice Latte</title>
   <desc>Wide promotional banner for Brew Haven's website featuring the Pumpkin Spice Latte with warm autumn tones and inviting typography.</desc>
   <defs>
@@ -8,7 +8,7 @@
       <stop offset="1" stop-color="#28140c" stop-opacity=".06"/>
     </linearGradient>
   </defs>
-  <image href="../assets/pumpkin-latte-unsplash.jpg" width="1600" height="900" preserveAspectRatio="xMidYMid slice"/>
+  <image xlink:href="../assets/pumpkin-latte-unsplash.jpg" href="../assets/pumpkin-latte-unsplash.jpg" width="1600" height="900" preserveAspectRatio="xMidYMid slice"/>
   <rect width="1600" height="900" fill="url(#overlay)"/>
   <text x="105" y="100" fill="#fff0d8" font-family="Georgia,serif" font-size="39" font-weight="bold" letter-spacing="6">BREW HAVEN</text>
   <text x="105" y="300" fill="#fff0d8" font-family="Georgia,serif" font-size="111" font-weight="bold">YOUR COZY</text>
