@@ -1,4 +1,4 @@
-# Brew Haven — October Campaign
+# Brew Haven — Seasonal Campaign
 
 Selected scenario: **Option 1 — Coffee Shop / Brew Haven**. Four original layout files and PNG exports promote the Pumpkin Spice Latte using an intentionally warm, cozy palette (#F5E7D1, #D96F2A, #2B170E).
 

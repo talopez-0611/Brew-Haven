@@ -254,32 +254,6 @@ nav a {
   color: var(--coffee);
 }
 
-/* Testimonial Section */
-.testimonial {
-  background: var(--cream);
-  text-align: center;
-  padding: clamp(50px, 8vw, 100px) clamp(24px, 8vw, 128px);
-}
-
-.testimonial blockquote {
-  font-family: var(--serif);
-  font-size: clamp(1.4rem, 3vw, 2rem);
-  font-style: italic;
-  color: var(--coffee);
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.4;
-}
-
-.testimonial cite {
-  display: block;
-  margin-top: 20px;
-  font-style: normal;
-  font-weight: 700;
-  color: var(--orange);
-  font-size: 0.95rem;
-}
-
 /* Footer */
 footer {
   padding: 30px clamp(24px, 8vw, 128px);
