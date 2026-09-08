@@ -17,7 +17,7 @@
   <text x="126" y="485" fill="#fff4df" font-family="Georgia,serif" font-size="103" font-weight="bold">WEATHER</text>
   <text x="126" y="580" fill="#fff4df" font-family="Georgia,serif" font-size="103" font-weight="bold">IN A CUP.</text>
   <rect x="126" y="642" width="310" height="78" rx="39" fill="#e9853c"/>
-  <text x="161" y="693" fill="#2b170e" font-family="Arial,sans-serif" font-size="26" font-weight="bold" letter-spacing="1">TRY IT TODAY</text>
+  <text x="281" y="693" text-anchor="middle" fill="#2b170e" font-family="Arial,sans-serif" font-size="26" font-weight="bold" letter-spacing="1">TRY IT TODAY</text>
   <text x="126" y="949" fill="#fff4df" font-family="Arial,sans-serif" font-size="27" letter-spacing="2">PUMPKIN SPICE LATTE • OCTOBER ONLY</text>
   <circle cx="960" cy="100" r="22" fill="#f5e7d1"/><path d="M955 100c8-18 24-13 18 0-4 8-12 10-18 0Z" fill="#d96f2a"/>
 </svg>
