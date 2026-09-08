@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Brew Haven Landing Page Banner — Pumpkin Spice Latte</title>
+  <desc>Wide promotional banner for Brew Haven's website featuring the Pumpkin Spice Latte with warm autumn tones and inviting typography.</desc>
+  <defs>
+    <linearGradient id="overlay" x1="0" x2="1">
+      <stop stop-color="#28140c" stop-opacity=".96"/>
+      <stop offset=".57" stop-color="#28140c" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#28140c" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+  <image href="../assets/pumpkin-latte-unsplash.jpg" width="1600" height="900" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1600" height="900" fill="url(#overlay)"/>
+  <text x="105" y="100" fill="#fff0d8" font-family="Georgia,serif" font-size="39" font-weight="bold" letter-spacing="6">BREW HAVEN</text>
+  <text x="105" y="300" fill="#fff0d8" font-family="Georgia,serif" font-size="111" font-weight="bold">YOUR COZY</text>
+  <text x="105" y="414" fill="#fff0d8" font-family="Georgia,serif" font-size="111" font-weight="bold">OCTOBER POUR.</text>
+  <text x="110" y="492" fill="#f7d3a7" font-family="Arial,sans-serif" font-size="30">Creamy pumpkin. Warm spice. Your new rainy-day ritual.</text>
+  <rect x="105" y="560" width="285" height="78" rx="39" fill="#e98136"/>
+  <text x="145" y="610" fill="#29150d" font-family="Arial,sans-serif" font-size="25" font-weight="bold" letter-spacing="1">ORDER YOURS NOW</text>
+  <text x="108" y="820" fill="#f8ddbd" font-family="Arial,sans-serif" font-size="23" letter-spacing="3">PUMPKIN SPICE LATTE  •  AVAILABLE THIS OCTOBER</text>
+</svg>

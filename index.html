@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Brew Haven's October Pumpkin Spice Latte campaign." />
+    <title>Brew Haven — Pumpkin Spice Latte</title>
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Brew Haven — Pumpkin Spice Latte" />
+    <meta property="og:description" content="Your cozy October pour. Creamy pumpkin, warm spice, and a rich espresso finish." />
+    <meta property="og:image" content="exports/landing-page-banner.png" />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="900" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23dc7630'/%3E%3Ctext x='50' y='68' font-size='50' font-family='Georgia,serif' font-weight='bold' fill='%23fff8ed' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Brew Haven home">
+        <span class="brand-mark">B</span> Brew Haven
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav').classList.toggle('active')">☰</button>
+      <nav aria-label="Main navigation">
+        <a href="#story">Our blend</a>
+        <a href="#menu">October menu</a>
+        <a href="#reviews">Reviews</a>
+        <a class="nav-cta" href="#order">Order now</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow">October special · Rainy day approved</p>
+          <h1 id="hero-heading">Your cozy<br />October pour.</h1>
+          <p class="hero-text">Creamy pumpkin, warm spice, and a rich espresso finish. Meet the Pumpkin Spice Latte made for sweater weather.</p>
+          <a class="button" href="#order">Try it today <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-caption">Pumpkin Spice Latte · Available all October</div>
+      </section>
+
+      <section class="intro section" id="story" aria-labelledby="story-heading">
+        <p class="eyebrow orange">Made for slow mornings</p>
+        <h2 id="story-heading">A little autumn in every sip.</h2>
+        <p>Our seasonal latte blends espresso, velvety steamed milk, real pumpkin flavor, cinnamon, nutmeg, and clove. It is the warm break between classes, meetings, and rain showers.</p>
+      </section>
+
+      <section class="menu section" id="menu" aria-labelledby="menu-heading">
+        <div class="menu-photo" role="img" aria-label="A warm latte on a wooden serving tray"></div>
+        <div class="menu-copy">
+          <p class="eyebrow orange">Seasonal favorite</p>
+          <h2 id="menu-heading">Pumpkin Spice Latte</h2>
+          <p>Choose it hot for a hug-in-a-mug feeling, or iced for an easy campus pick-me-up.</p>
+          <dl>
+            <div><dt>Short</dt><dd>₱135</dd></div>
+            <div><dt>Tall</dt><dd>₱155</dd></div>
+            <div><dt>Grande</dt><dd>₱175</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="testimonial section" id="reviews" aria-labelledby="reviews-heading">
+        <h2 id="reviews-heading" class="visually-hidden">Customer Reviews</h2>
+        <blockquote>"Best pumpkin latte I've had! Perfect for rainy afternoons on campus."</blockquote>
+        <cite>— Maria S., Student</cite>
+      </section>
+
+      <section class="order section" id="order" aria-labelledby="order-heading">
+        <p class="eyebrow">Only here for October</p>
+        <h2 id="order-heading">Make your rainy day delicious.</h2>
+        <p>Drop by Brew Haven and ask for the Pumpkin Spice Latte. Bring a friend—cozy tastes better together.</p>
+        <a class="button light" href="mailto:hello@brewhaven.example?subject=Pumpkin%20Spice%20Latte%20Order">Start your order <span aria-hidden="true">→</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#top"><span class="brand-mark">B</span> Brew Haven</a>
+      <p>Made with warmth for October.</p>
+      <p class="credit">Photo by <a href="https://unsplash.com/photos/a-cup-of-coffee-sitting-on-top-of-a-wooden-tray-6tcybUwV-kY">Raymond Petrik / Unsplash</a></p>
+    </footer>
+
+    <style>
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+    </style>
+  </body>
+</html>

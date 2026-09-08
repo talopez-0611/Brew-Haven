@@ -1,0 +1,353 @@
+:root {
+  --ink: #2c180e;
+  --coffee: #3a1f12;
+  --orange: #dc7630;
+  --cream: #f8ead6;
+  --sand: #ead1ad;
+  --serif: "Playfair Display", Georgia, serif;
+  --sans: "DM Sans", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.55;
+}
+
+/* Header */
+.site-header {
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(24px, 6vw, 96px);
+  background: #fff8ed;
+}
+
+.brand {
+  color: var(--coffee);
+  font-family: var(--serif);
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 1.28rem;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.brand-mark {
+  height: 31px;
+  width: 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff8ed;
+  background: var(--orange);
+  font-size: .95rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+nav a {
+  color: var(--coffee);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: .91rem;
+}
+
+.nav-cta {
+  border: 1px solid var(--coffee);
+  padding: 9px 17px;
+  border-radius: 999px;
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--coffee);
+}
+
+/* Hero Section */
+.hero {
+  min-height: calc(100vh - 78px);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: clamp(70px, 10vw, 140px) clamp(24px, 8vw, 128px);
+  color: #fff5e6;
+  background: linear-gradient(90deg, rgba(35, 16, 8, .96) 0%, rgba(35, 16, 8, .74) 43%, rgba(35, 16, 8, .07) 100%), url("assets/pumpkin-latte-unsplash.jpg") center 53%/cover;
+}
+
+.hero-copy {
+  max-width: 610px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  font-size: .76rem;
+  font-weight: 700;
+  margin: 0 0 18px;
+  color: #ffd3a5;
+}
+
+.eyebrow.orange {
+  color: #bd591f;
+}
+
+.hero h1,
+.hero h2,
+.intro h2,
+.menu h2,
+.order h2 {
+  font-family: var(--serif);
+  line-height: 1.04;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: clamp(3.2rem, 7vw, 6.5rem);
+  letter-spacing: -.045em;
+}
+
+.hero-text {
+  font-size: clamp(1rem, 1.5vw, 1.17rem);
+  max-width: 520px;
+  margin: 27px 0 34px;
+  color: #f6dabb;
+}
+
+/* Buttons */
+.button {
+  display: inline-flex;
+  gap: 13px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--ink);
+  background: #ee9148;
+  font-weight: 700;
+  padding: 14px 23px;
+  border-radius: 999px;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  background: #ffc07d;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero-caption {
+  position: absolute;
+  left: clamp(24px, 8vw, 128px);
+  bottom: 36px;
+  text-transform: uppercase;
+  font-size: .7rem;
+  letter-spacing: .16em;
+  color: #f2cb9f;
+}
+
+/* Sections */
+.section {
+  padding: clamp(70px, 10vw, 130px) clamp(24px, 8vw, 128px);
+}
+
+.intro {
+  text-align: center;
+  max-width: 840px;
+  margin: auto;
+}
+
+.intro h2,
+.menu h2,
+.order h2 {
+  font-size: clamp(2.45rem, 5vw, 4.6rem);
+  letter-spacing: -.04em;
+}
+
+.intro p:not(.eyebrow) {
+  font-size: 1.1rem;
+  max-width: 630px;
+  margin: 28px auto 0;
+  color: #654231;
+}
+
+/* Menu Section */
+.menu {
+  background: #fff8ed;
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: clamp(45px, 9vw, 150px);
+  align-items: center;
+}
+
+.menu-photo {
+  height: 500px;
+  border-radius: 180px 180px 16px 16px;
+  background: linear-gradient(rgba(71, 33, 15, .12), rgba(71, 33, 15, .12)), url("assets/pumpkin-latte-unsplash.jpg") center/cover;
+}
+
+.menu-copy > p:not(.eyebrow) {
+  color: #654231;
+  font-size: 1.08rem;
+  max-width: 440px;
+}
+
+.menu dl {
+  margin: 35px 0 0;
+  max-width: 410px;
+}
+
+.menu dl div {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0;
+  border-bottom: 1px solid #dfc5a6;
+}
+
+.menu dt {
+  font-weight: 700;
+}
+
+.menu dd {
+  margin: 0;
+  color: #bb5720;
+  font-weight: 700;
+}
+
+/* Order Section */
+.order {
+  text-align: center;
+  background: var(--orange);
+  color: #fff8ed;
+}
+
+.order .eyebrow {
+  color: #572613;
+}
+
+.order p:not(.eyebrow) {
+  max-width: 590px;
+  margin: 24px auto 34px;
+}
+
+.light {
+  background: #fff8ed;
+  color: var(--coffee);
+}
+
+/* Testimonial Section */
+.testimonial {
+  background: var(--cream);
+  text-align: center;
+  padding: clamp(50px, 8vw, 100px) clamp(24px, 8vw, 128px);
+}
+
+.testimonial blockquote {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-style: italic;
+  color: var(--coffee);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.testimonial cite {
+  display: block;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--orange);
+  font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+  padding: 30px clamp(24px, 8vw, 128px);
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #fff8ed;
+  color: #704a36;
+  font-size: .82rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+.credit a {
+  color: #704a36;
+}
+
+/* Mobile Responsive */
+@media (max-width: 700px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .site-header {
+    height: auto;
+    padding: 16px 24px;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 16px;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  nav a:not(.nav-cta) {
+    display: block;
+  }
+
+  .hero {
+    min-height: 650px;
+  }
+
+  .menu {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-photo {
+    height: 390px;
+    order: 2;
+  }
+
+  .menu-copy {
+    order: 1;
+  }
+
+  .hero-caption {
+    bottom: 25px;
+    font-size: .62rem;
+  }
+}
